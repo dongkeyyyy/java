@@ -19,6 +19,9 @@ public class Yeondong {
 		System.out.println("replaceall : " + str3.replace("[Good]" , "a"));
 		
 		
+		System.out.println("이클립립스와 깃허브 데스크탑 연동");
+		
+		
 	}
 
 }
