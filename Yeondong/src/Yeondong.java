@@ -21,6 +21,15 @@ public class Yeondong {
 		
 		System.out.println("이클립립스와 깃허브 데스크탑 연동");
 		
+		int a = 384;
+		int b = 472;
+		
+		System.out.println("1 : " + a*(b%10));
+		System.out.println("2 : " + a*(b%100/10));
+		System.out.println("3 : " + a*(b/100));
+		System.out.println("4 : " + a*b);
+		System.out.println();
+		
 		
 	}
 
