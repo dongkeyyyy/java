@@ -5,28 +5,28 @@ public class OpTest4 {
 	public static void main(String[] args) {
 		int num = 99;
 		
-		// && (and¿¬»êÀÚ) 
+		// && (andì—°ì‚°ì) 
 		// true && true --> true
 		// true && false --> false
 		// false && true --> false
 		// false && false --> false
-		// true = 1 false = 0ÀÌ¶ó°í »ı°¢ÇÏ¸éµÊ
-		System.out.println("and¿¬»ê : " + 
-				(num >= 100 && num <= 200));  // num >= 100 = false    num <= 200 = true  false && true °¡ µÇ¹Ç·Î °á°ú´Â false°¡ µÊ
+		// true = 1 false = 0ì´ë¼ê³  ìƒê°í•˜ë©´ë¨
+		System.out.println("andì—°ì‚° : " + 
+				(num >= 100 && num <= 200));  // num >= 100 = false    num <= 200 = true  false && true ê°€ ë˜ë¯€ë¡œ ê²°ê³¼ëŠ” falseê°€ ë¨
 
 		
-		// || (³í¸® or¿¬»êÀÚ)
+		// || (ë…¼ë¦¬ orì—°ì‚°ì)
 		// true || true --> true
 		// true || false --> true
 		// false || true --> true
 		// false || false --> false
-		System.out.println("or ¿¬»ê : " + 
-				(num >= 100 || num <= 200));  // false || true °¡ µÇ¹Ç·Î °á°ú´Â true°¡ µÊ
+		System.out.println("or ì—°ì‚° : " + 
+				(num >= 100 || num <= 200));  // false || true ê°€ ë˜ë¯€ë¡œ ê²°ê³¼ëŠ” trueê°€ ë¨
 		
-		// ! (³í¸® not¿¬»êÀÚ) ¹İÀü½ÃÅ´. 
+		// ! (ë…¼ë¦¬ notì—°ì‚°ì) ë°˜ì „ì‹œí‚´. 
 		// ! (true) --> false
 		// ! (false) --> true
-		System.out.println("not¿¬»êÀÚ : " +
+		System.out.println("notì—°ì‚°ì : " +
 				!(num == 100));
 		
 		

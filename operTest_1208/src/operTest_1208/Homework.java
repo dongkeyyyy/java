@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Homework {
 
 	public static void main(String[] args) {
-		int a = 0; // 500¿ø
-		int b = 0; // 100¿ø
-		int c = 0; // 50¿ø
-		int d = 0; // 10¿ø
+		int a = 0; // 500ì›
+		int b = 0; // 100ì›
+		int c = 0; // 50ì›
+		int d = 0; // 10ì›
 		
-		System.out.println("±³È¯ÇÒ ±İ¾× : ");
+		System.out.println("êµí™˜í•  ê¸ˆì•¡ : ");
 		
 		Scanner s = new Scanner(System.in);
-		int e = s.nextInt(); // µ¿Àü ±³È¯ÇÒ  ±İ¾×
+		int e = s.nextInt(); // ë™ì „ êµí™˜í•   ê¸ˆì•¡
 		
 		a = 500;  b = 100;  c = 50;   d = 10;
 		
@@ -24,13 +24,13 @@ public class Homework {
 		int num5 = e % a % b % c % d;
 		
 		System.out.println("----------------------------");
-		System.out.println("    µ¿Àü ±³È¯±â ÇÁ·Î±×·¥ 1.0     ");
+		System.out.println("    ë™ì „ êµí™˜ê¸° í”„ë¡œê·¸ë¨ 1.0     ");
 		System.out.println("----------------------------");
-		System.out.println("  ¿À¹é¿ø °¹¼ö : " + num1 + "°³"  );
-		System.out.println("   ¹é¿ø °¹¼ö : " + num2 + "°³"  );
-		System.out.println("  ¿À½Ê¿ø °¹¼ö : " + num3 + "°³" );
-		System.out.println("  ½Ê¿ø °¹¼ö : " + num4 + "°³"   );
-		System.out.println("¹Ù²ÙÁö ¸øÇÑ ÀÜµ· : " + num5 + "°³");
+		System.out.println("  ì˜¤ë°±ì› ê°¯ìˆ˜ : " + num1 + "ê°œ"  );
+		System.out.println("   ë°±ì› ê°¯ìˆ˜ : " + num2 + "ê°œ"  );
+		System.out.println("  ì˜¤ì‹­ì› ê°¯ìˆ˜ : " + num3 + "ê°œ" );
+		System.out.println("  ì‹­ì› ê°¯ìˆ˜ : " + num4 + "ê°œ"   );
+		System.out.println("ë°”ê¾¸ì§€ ëª»í•œ ì”ëˆ : " + num5 + "ê°œ");
 		System.out.println("----------------------------");
 		
 		

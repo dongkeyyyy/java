@@ -3,28 +3,28 @@ package operTest_1208;
 public class OpTest3 {
 
 	public static void main(String[] args) {
-		// ³í¸® ¿¬»êÀÚ
-		// Á¦¾î¹®(if)¿¡¼­ ¸¹ÀÌ È°¿ë.
+		// ë…¼ë¦¬ ì—°ì‚°ì
+		// ì œì–´ë¬¸(if)ì—ì„œ ë§ì´ í™œìš©.
 		int num1 = 100, num2 = 200;
 				
-		// == °°´Ù? (num1 != num2) num1°ú num2°¡ °°³Ä?
-		System.out.println("== ¿¬»êÀÚ : " + (num1 == num2));
+		// == ê°™ë‹¤? (num1 != num2) num1ê³¼ num2ê°€ ê°™ëƒ?
+		System.out.println("== ì—°ì‚°ì : " + (num1 == num2));
 		
-		// != ´Ù¸£´Ù? (num1 != num2) num1°ú num2°¡ ´Ù¸£³Ä?
-		System.out.println("!= ¿¬»êÀÚ : " + (num1 != num2));
+		// != ë‹¤ë¥´ë‹¤? (num1 != num2) num1ê³¼ num2ê°€ ë‹¤ë¥´ëƒ?
+		System.out.println("!= ì—°ì‚°ì : " + (num1 != num2));
 		
-		// ´ë,¼Ò ºñ±³ num1ÀÌ num2º¸´Ù Å©³Ä?
-		System.out.println("> ¿¬»êÀÚ : " +  (num1 > num2));
-		System.out.println("> ¿¬»êÀÚ : " +  (num1 < num2));
+		// ëŒ€,ì†Œ ë¹„êµ num1ì´ num2ë³´ë‹¤ í¬ëƒ?
+		System.out.println("> ì—°ì‚°ì : " +  (num1 > num2));
+		System.out.println("> ì—°ì‚°ì : " +  (num1 < num2));
 		
-		// >Å©´Ù?
-		System.out.println("> ¿¬»êÀÚ : " +  (num1 > num2));
-		// <ÀÛ´Ù?
-		System.out.println("< ¿¬»êÀÚ : " +  (num1 < num2));
-		// Å©°Å³ª °°´Ù  (ÀÌ»ó)
-		System.out.println(">= ¿¬»êÀÚ : " +  (num1 >= num2));
-		// ÀÛ°Å³ª °°´Ù  (ÀÌÇÏ)
-		System.out.println("<= ¿¬»êÀÚ : " +  (num1 <= num2));
+		// >í¬ë‹¤?
+		System.out.println("> ì—°ì‚°ì : " +  (num1 > num2));
+		// <ì‘ë‹¤?
+		System.out.println("< ì—°ì‚°ì : " +  (num1 < num2));
+		// í¬ê±°ë‚˜ ê°™ë‹¤  (ì´ìƒ)
+		System.out.println(">= ì—°ì‚°ì : " +  (num1 >= num2));
+		// ì‘ê±°ë‚˜ ê°™ë‹¤  (ì´í•˜)
+		System.out.println("<= ì—°ì‚°ì : " +  (num1 <= num2));
 
 	}
 

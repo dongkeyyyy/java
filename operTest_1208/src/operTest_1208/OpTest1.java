@@ -5,12 +5,12 @@ public class OpTest1 {
 	public static void main(String[] args) {
 		int num1 = 2, num2 = 3, num3 = 4;
 		
-		// ¿¬»êÀÚ ¿ì¼±¼øÀ§
+		// ì—°ì‚°ìž ìš°ì„ ìˆœìœ„
 		// *, / > +, -
 		int result = num1 + num2 - num3;
 		System.out.println("result : " + result);
 		
-		// °ýÈ£¸¦ ¸ÕÀú Ã³¸®
+		// ê´„í˜¸ë¥¼ ë¨¼ì € ì²˜ë¦¬
 		int result2 = num1 + (num2 - num3);
 		System.out.println("result2 : " + result2);
 		
@@ -25,7 +25,7 @@ public class OpTest1 {
 		result = num1 * num2 / num3; 
 		System.out.println("result : " + result);
 		
-		// % ³ª¸ÓÁö ¿¬»êÀÚ  4%3 = ¸òÀÌ1ÀÌ°í ³ª¸ÓÁö°¡1ÀÌ´Ù.  °ªÀº ³ª¸ÓÁöÀÎ 1ÀÌµÈ´Ù
+		// % ë‚˜ë¨¸ì§€ ì—°ì‚°ìž  4%3 = ëª«ì´1ì´ê³  ë‚˜ë¨¸ì§€ê°€1ì´ë‹¤.  ê°’ì€ ë‚˜ë¨¸ì§€ì¸ 1ì´ëœë‹¤
 		// x%2 --> 0,1
 		// x%3 --> 0,1,2
 		// x%4 --> 0,1,2,3
