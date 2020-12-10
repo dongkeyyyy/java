@@ -5,13 +5,13 @@ public class Input3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
-		System.out.println("ÁÖÇà°Å¸® ÀÔ·Â: ");
+		System.out.println("ì£¼í–‰ê±°ë¦¬ ìž…ë ¥: ");
 		double juhang = s.nextDouble();
-		System.out.println("»ç¿ëÇÑ ÈÖ¹ßÀ¯ ¾ç ÀÔ·Â: ");
+		System.out.println("ì‚¬ìš©í•œ íœ˜ë°œìœ  ì–‘ ìž…ë ¥: ");
 		double fuels = s.nextDouble();
-		// ¿¬ºñ ±¸ÇÔ
+		// ì—°ë¹„ êµ¬í•¨
 		double yeonbi = juhang / fuels;
-		System.out.println("»ç¿ë ¿¬ºñ: " + yeonbi);
+		System.out.println("ì‚¬ìš© ì—°ë¹„: " + yeonbi);
 		s.close();
 	}
 

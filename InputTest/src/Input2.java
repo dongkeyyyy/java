@@ -5,18 +5,18 @@ public class Input2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Ã¹¹øÂ° Á¤¼ö°ª ÀÔ·Â: ");
+		System.out.println("ì²«ë²ˆì§¸ ì •ìˆ˜ê°’ ì…ë ¥: ");
 		int num1 = scan.nextInt();
-		System.out.println("µÎ¹øÂ° Á¤¼ö°ª ÀÔ·Â: ");
+		System.out.println("ë‘ë²ˆì§¸ ì •ìˆ˜ê°’ ì…ë ¥: ");
 		int num2 = scan.nextInt();
-		System.out.println("¼¼¹øÂ° Á¤¼ö°ª ÀÔ·Â: ");
+		System.out.println("ì„¸ë²ˆì§¸ ì •ìˆ˜ê°’ ì…ë ¥: ");
 		int num3 = scan.nextInt();
 		
 		int sum = num1 + num2 + num3;
 		int ave = sum / 3;
 		
-		System.out.println("ÇÕ°è: " + sum);
-		System.out.println("Æò±Õ: " + ave);
+		System.out.println("í•©ê³„: " + sum);
+		System.out.println("í‰ê· : " + ave);
 	} 
 
 }

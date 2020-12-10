@@ -6,12 +6,12 @@ public class InPut5 {
 		int n1 = 5;
 		int n2 = 7;
 		
-		//if¹®
+		//ifë¬¸
 		if(n1 > n2)  {
 		System.out.println("n1 < n2 is true");
 		}
 
-		//if ~ else ¹®
+		//if ~ else ë¬¸
 		if(n1 == n2) {
 			System.out.println("n1 == n2 is true");
 		}

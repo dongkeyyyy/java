@@ -2,11 +2,11 @@
 public class Yeondong {
 
 	public static void main(String[] args) {
-		// IDE¸¦ git°ú ¿¬µ¿ÇÏ¿© IDE¿¡¼­ ¹Ù·Î commit&push
-		System.out.println("¼÷Á¦·®ÀÌ »ó´çÇÏ´Ù ÀÌ ¸»ÀÌ¾ß");
+		// IDEë¥¼ gitê³¼ ì—°ë™í•˜ì—¬ IDEì—ì„œ ë°”ë¡œ commit&push
+		System.out.println("ìˆ™ì œëŸ‰ì´ ìƒë‹¹í•˜ë‹¤ ì´ ë§ì´ì•¼");
 		
-		String str = "¼÷Á¦·®ÀÌ";
-		String str1 = "»ó´çÇÏ´Ù";
+		String str = "ìˆ™ì œëŸ‰ì´";
+		String str1 = "ìƒë‹¹í•˜ë‹¤";
 		
 		System.out.println(str + str1);
 		
@@ -19,7 +19,7 @@ public class Yeondong {
 		System.out.println("replaceall : " + str3.replace("[Good]" , "a"));
 		
 		
-		System.out.println("ÀÌÅ¬¸³¸³½º¿Í ±êÇãºê µ¥½ºÅ©Å¾ ¿¬µ¿");
+		System.out.println("ì´í´ë¦½ë¦½ìŠ¤ì™€ ê¹ƒí—ˆë¸Œ ë°ìŠ¤í¬íƒ‘ ì—°ë™");
 		
 		int a = 384;
 		int b = 472;

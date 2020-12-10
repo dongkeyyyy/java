@@ -7,21 +7,21 @@ public class Input4 {
 		Scanner s = new Scanner(System.in);
 		
 		
-		System.out.println("±¹¾î Á¡¼ö ÀÔ·Â : ");
+		System.out.println("êµ­ì–´ ì ìˆ˜ ì…ë ¥ : ");
 		double g = s.nextDouble();
 		
-		System.out.println("¿µ¾î Á¡¼ö ÀÔ·Â : ");
+		System.out.println("ì˜ì–´ ì ìˆ˜ ì…ë ¥ : ");
 		double e = s.nextDouble();
 		
-		System.out.println("¼öÇĞ Á¡¼ö ÀÔ·Â : ");
+		System.out.println("ìˆ˜í•™ ì ìˆ˜ ì…ë ¥ : ");
 		double m = s.nextDouble();
 		
-		System.out.println("°úÇĞ Á¡¼ö ÀÔ·Â : ");
+		System.out.println("ê³¼í•™ ì ìˆ˜ ì…ë ¥ : ");
 		double t = s.nextDouble();
 		
-		System.out.println("Æò±Õ°ª : " + (g+e+m+t)/4);
+		System.out.println("í‰ê· ê°’ : " + (g+e+m+t)/4);
 		
-		System.out.println("ÃÑÁ¡ : " + (g+e+m+t));
+		System.out.println("ì´ì  : " + (g+e+m+t));
 	
 	}
 
@@ -39,13 +39,13 @@ public class Input4 {
 // TODO Auto-generated method stub
 //		Scanner s = new Scanner(System.in);
 
-//		System.out.println("¿øÁÖÀ² ÀÔ·Â: ");
+//		System.out.println("ì›ì£¼ìœ¨ ì…ë ¥: ");
 //		double pi = s.nextDouble();
 
-//		System.out.println("¹İÁö¸§ ÀÔ·Â: ");
+//		System.out.println("ë°˜ì§€ë¦„ ì…ë ¥: ");
 //		double ban = s.nextDouble();
 
 //		double one = ban * ban * pi ;
 
 
-//		System.out.println("¿øÀÇ ¸éÀû : " + one);
+//		System.out.println("ì›ì˜ ë©´ì  : " + one);

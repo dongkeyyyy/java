@@ -4,17 +4,17 @@ public class Input1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Scanner °´Ã¼(s) »ı¼º 
+		// Scanner ê°ì²´(s) ìƒì„± 
 		Scanner s = new Scanner(System.in);
-		System.out.println("ÀÌ¸§ ÀÔ·Â¤Ó ");
-		// Å°º¸µå·Î ¹®ÀÚ¿­ ÀÔ·Â¹ŞÀ½
+		System.out.println("ì´ë¦„ ì…ë ¥ã…£ ");
+		// í‚¤ë³´ë“œë¡œ ë¬¸ìì—´ ì…ë ¥ë°›ìŒ
 		String name = s.nextLine();
-		// Á¤¼ö ÀÔ·Â ¹ŞÀ½
-		System.out.print("³ªÀÌ ÀÔ·Â: ");
+		// ì •ìˆ˜ ì…ë ¥ ë°›ìŒ
+		System.out.print("ë‚˜ì´ ì…ë ¥: ");
 		int age = s.nextInt();
 		
-		System.out.println("ÀÌ¸§ Á¤º¸: " + name);
-		System.out.println("³ªÀÌ Á¤º¸: " + age);
+		System.out.println("ì´ë¦„ ì •ë³´: " + name);
+		System.out.println("ë‚˜ì´ ì •ë³´: " + age);
 		s.close();
 	}
 
