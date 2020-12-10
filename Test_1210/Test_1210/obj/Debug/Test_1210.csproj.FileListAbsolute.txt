@@ -1,0 +1,10 @@
+D:\java\Test_1210\Test_1210\bin\Debug\Test_1210.exe.config
+D:\java\Test_1210\Test_1210\bin\Debug\Test_1210.exe
+D:\java\Test_1210\Test_1210\bin\Debug\Test_1210.pdb
+D:\java\Test_1210\Test_1210\obj\Debug\Test_1210.csprojAssemblyReference.cache
+D:\java\Test_1210\Test_1210\obj\Debug\Test_1210.Form1.resources
+D:\java\Test_1210\Test_1210\obj\Debug\Test_1210.Properties.Resources.resources
+D:\java\Test_1210\Test_1210\obj\Debug\Test_1210.csproj.GenerateResource.cache
+D:\java\Test_1210\Test_1210\obj\Debug\Test_1210.csproj.CoreCompileInputs.cache
+D:\java\Test_1210\Test_1210\obj\Debug\Test_1210.exe
+D:\java\Test_1210\Test_1210\obj\Debug\Test_1210.pdb

@@ -1,0 +1,10 @@
+D:\java\VreySimpleExample\VreySimpleExample\bin\Debug\VreySimpleExample.exe.config
+D:\java\VreySimpleExample\VreySimpleExample\bin\Debug\VreySimpleExample.exe
+D:\java\VreySimpleExample\VreySimpleExample\bin\Debug\VreySimpleExample.pdb
+D:\java\VreySimpleExample\VreySimpleExample\obj\Debug\VreySimpleExample.csprojAssemblyReference.cache
+D:\java\VreySimpleExample\VreySimpleExample\obj\Debug\VreySimpleExample.Form1.resources
+D:\java\VreySimpleExample\VreySimpleExample\obj\Debug\VreySimpleExample.Properties.Resources.resources
+D:\java\VreySimpleExample\VreySimpleExample\obj\Debug\VreySimpleExample.csproj.GenerateResource.cache
+D:\java\VreySimpleExample\VreySimpleExample\obj\Debug\VreySimpleExample.csproj.CoreCompileInputs.cache
+D:\java\VreySimpleExample\VreySimpleExample\obj\Debug\VreySimpleExample.exe
+D:\java\VreySimpleExample\VreySimpleExample\obj\Debug\VreySimpleExample.pdb
