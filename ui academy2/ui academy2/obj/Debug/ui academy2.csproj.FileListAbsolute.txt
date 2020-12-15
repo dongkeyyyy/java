@@ -1,0 +1,10 @@
+D:\KDH\java\ui academy2\ui academy2\bin\Debug\ui academy2.exe.config
+D:\KDH\java\ui academy2\ui academy2\bin\Debug\ui academy2.exe
+D:\KDH\java\ui academy2\ui academy2\bin\Debug\ui academy2.pdb
+D:\KDH\java\ui academy2\ui academy2\obj\Debug\ui academy2.csprojAssemblyReference.cache
+D:\KDH\java\ui academy2\ui academy2\obj\Debug\ui_academy2.Form1.resources
+D:\KDH\java\ui academy2\ui academy2\obj\Debug\ui_academy2.Properties.Resources.resources
+D:\KDH\java\ui academy2\ui academy2\obj\Debug\ui academy2.csproj.GenerateResource.cache
+D:\KDH\java\ui academy2\ui academy2\obj\Debug\ui academy2.csproj.CoreCompileInputs.cache
+D:\KDH\java\ui academy2\ui academy2\obj\Debug\ui academy2.exe
+D:\KDH\java\ui academy2\ui academy2\obj\Debug\ui academy2.pdb
