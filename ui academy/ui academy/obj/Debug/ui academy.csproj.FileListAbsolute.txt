@@ -1,0 +1,11 @@
+D:\gd\ui academy\ui academy\bin\Debug\ui academy.exe.config
+D:\gd\ui academy\ui academy\bin\Debug\ui academy.exe
+D:\gd\ui academy\ui academy\bin\Debug\ui academy.pdb
+D:\gd\ui academy\ui academy\obj\Debug\ui academy.csprojAssemblyReference.cache
+D:\gd\ui academy\ui academy\obj\Debug\ui_academy.Form1.resources
+D:\gd\ui academy\ui academy\obj\Debug\ui_academy.Properties.Resources.resources
+D:\gd\ui academy\ui academy\obj\Debug\ui academy.csproj.GenerateResource.cache
+D:\gd\ui academy\ui academy\obj\Debug\ui academy.csproj.CoreCompileInputs.cache
+D:\gd\ui academy\ui academy\obj\Debug\ui academy.csproj.CopyComplete
+D:\gd\ui academy\ui academy\obj\Debug\ui academy.exe
+D:\gd\ui academy\ui academy\obj\Debug\ui academy.pdb
