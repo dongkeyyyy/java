@@ -1,0 +1,10 @@
+D:\KDH\java\saj\saj\bin\Debug\saj.exe.config
+D:\KDH\java\saj\saj\bin\Debug\saj.exe
+D:\KDH\java\saj\saj\bin\Debug\saj.pdb
+D:\KDH\java\saj\saj\obj\Debug\saj.csprojAssemblyReference.cache
+D:\KDH\java\saj\saj\obj\Debug\saj.Form1.resources
+D:\KDH\java\saj\saj\obj\Debug\saj.Properties.Resources.resources
+D:\KDH\java\saj\saj\obj\Debug\saj.csproj.GenerateResource.cache
+D:\KDH\java\saj\saj\obj\Debug\saj.csproj.CoreCompileInputs.cache
+D:\KDH\java\saj\saj\obj\Debug\saj.exe
+D:\KDH\java\saj\saj\obj\Debug\saj.pdb

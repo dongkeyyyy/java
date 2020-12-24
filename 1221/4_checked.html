@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* checkbox를 체크하면 그 바로 뒤에 있는 태그가 사라짐 */
+        input[type=checkbox]:checked+div
+        {
+            height: 300px;
+        }
+        div
+        {
+            overflow:hidden;
+            width: 650px;
+            height: 0px;
+            -ms-transition-duration : 1s;
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odit labore voluptatem! Deleniti, nemo beatae.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, voluptatibus culpa, sapiente facilis nemo expedita omnis nostrum consequatur asperiores ab quidem dicta aliquid tempora doloremque animi. Eum, omnis consectetur assumenda hic quia consequatur, corrupti praesentium labore nihil quam ipsam, inventore at? Praesentium, placeat! Odit, eum culpa iusto itaque ullam inventore delectus blanditiis fugit aut quam deserunt, at voluptatum suscipit labore commodi consequatur placeat adipisci porro voluptatem. Voluptatem consequatur hic laborum qui ducimus vitae voluptas nemo officia sapiente odit praesentium quisquam atque amet aspernatur ipsum veniam, fugit, delectus sed est veritatis laudantium libero natus. Error rerum inventore id esse voluptatum quis, ea ex quasi porro cupiditate numquam ad, laborum architecto quidem incidunt dolor facilis recusandae voluptatibus commodi ab neque exercitationem blanditiis odio. Provident tempora, praesentium quibusdam voluptatem assumenda doloremque suscipit corrupti vero eius veritatis molestias numquam magni consequatur itaque similique at corporis quasi iure, nesciunt facere. Iure laudantium porro animi quidem?</p>
+    </div>
+</body>
+</html>
