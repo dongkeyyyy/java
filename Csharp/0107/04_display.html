@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box
+        {
+            /* display: none; */
+            /* visibility: hidden; */
+            display: inline-block; /* width와 heigt의 값만큼의 블록을 생성 */
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+        }
+        #box2
+        {
+            display: inline;     /* inline의 경우 width와 heigt의 값이 먹히질 않는다 */  
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <span>Dummy</span>
+    <div id="box">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, ea!</span>
+    </div>
+        
+    <div id="box2">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, ea!</span>
+    </div>
+    <span>Dummy</span>
+    </div>  
+</body>
+</html>
