@@ -1,0 +1,75 @@
+/* 배경 */
+html {
+   
+}
+
+#top_navigation_toggle_button_box{
+    background-color: rgba(48, 73, 182, 0.418);
+}
+
+/* 상단 네비게이션 */
+#top_navigation {
+    background-color: rgba(48, 73, 182, 0.815);
+}
+
+/* 공식 링크 */
+.official_link {
+    border: 1px solid rgba(186, 197, 36, 0.651);
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* 이동 버튼 박스 */
+#move_button_box {
+    border-radius: 3px 0 0 3    px;
+    background-color: rgba(19, 19, 28, 0.767);
+}
+
+/* 이동 버튼 */
+.move_button{
+    border: 1px solid #191919;
+    border-width: 1px 0;
+}
+
+/* 메인 타이틀 */
+#main_title {
+    color: rgb(214, 19, 29);
+}
+
+/* 메인 타이틀 악센트 */
+.main_title_accent {
+    color: rgb(25, 0, 255);
+}
+
+/* 네비게이션 바 */
+#navigation_bar {
+    border-radius: 15px 15px 0 0;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+/* 게시글 박스 */
+#post_box {
+    border-radius: 0 0 15px 15px;
+    background-color: rgba(25, 25, 25, 0.9);
+}
+
+/* 게시글 제목 */
+.post_title {
+    color: rgb(255, 255, 255);
+}
+
+/* 게시글 본문 */
+.post_body {
+    color: mintcream;
+}
+
+/* 게시글 사이 구분선 */
+.horizontal_line_between_posts {
+    border-color: rgb(255, 0, 0);
+}
+
+/* 푸터 */
+#footer {
+    border-radius: 15px 15px 0 0;
+    background-color: rgba(0, 255, 76, 0.26);
+    color: yellow;
+}
