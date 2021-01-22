@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        h1
+        {
+            width: 360px; margin: 0 auto; text-align: center;
+            color: blueviolet;
+            padding-top: 20px;
+        }
+        .subsubject {
+            text-align: center;
+        }
+        p{padding: 8px 0px;}
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        .container > div{
+            flex-basis:  25%;
+            flex : 0;
+            margin: 8px;
+            border:1px solid rgb(252, 252, 252);
+            padding: 8px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+        .container > div:hover {
+            border:1px solid rebeccapurple;
+        }
+        .buttonWrapper{
+            width: 100vs;
+            text-align: center;
+        }
+        .more{
+            width: 120px;
+            padding: 8px 15px;
+            margin: 10px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The Movie</h1>
+    <p class="subsubject">"영화란 지루한 부분이 커트된 인생이다" - 알프레드 히치콕</p>
+
+    <div class="container">
+
+    </div>
+    <div class="buttonWrapper"><button class="more">더 보기</button></div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- JQuery 코드 추가 -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="jsp_animation.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    </head>
+<body>
+    <div id="background">
+        <img src="img.jpg" class="stretch" alt="">
+    </div>
+    <div class="app">
+        <header>  <!-- 시맨틱 웹에서 쓰임. div랑 똑같음 -->
+            <h1>Music</h1>
+            <p>Please press the button below.</p>
+        </header>
+        <div class="visual"></div>
+        <p class="title"></p>
+        <div class="pads">
+            <!-- (div[class=pad$]>audio[class=sound][src=sound/$.mp3])*6 -->
+            <div class="pad1">
+                <a href="#" class="btn btn-primary hvr-pulse grow" style="text-decoration:none">Music1</a>
+                <audio src="sound/Josef_Salvat_in_the_afternoon.mp3" class="sound"></audio>
+            </div>
+            <div class="pad2">
+                <a href="#" class="btn btn-primary hvr-pulse grow" style="text-decoration:none">Music2</a>
+                <audio src="sound/Lauv_Never_Not.mp3" class="sound"></audio>
+            </div>
+            <div class="pad3">
+                <a href="#" class="btn btn-primary hvr-pulse grow" style="text-decoration:none">Music3</a>
+                <audio src="sound/Jeremy_Zucker_comethru.mp3" class="sound"></audio>
+            </div>
+            <div class="pad4">
+                <a href="#" class="btn btn-primary hvr-pulse grow" style="text-decoration:none">Music4</a>
+                <audio src="sound/Sasha_Sloan_Dancing_With_Your_Ghost.mp3" class="sound"></audio>
+            </div>
+            <div class="pad5">
+                <a href="#" class="btn btn-primary hvr-pulse grow" style="text-decoration:none">Music5</a>
+                <audio src="sound/Ed_Sheeran_Supermarket_Flowers.mp3" class="sound"></audio>
+            </div>
+            <div class="pad6">
+                <a href="#" class="btn btn-primary hvr-pulse grow" style="text-decoration:none">Music6</a>
+                <audio src="sound/Lauv_Breathe.mp3" class="sound"></audio>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main_animation.js"></script>
+</body>
+</html>

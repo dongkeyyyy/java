@@ -1,0 +1,182 @@
+*  /* 초기화 코드 */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sunflower', sans-serif;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    background: no-repeat center center fixed;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+.app
+{
+    height: 100vh;
+    /* vh 백분율 */
+    /* 높이가 900px일때 1vh는 9px을 의미 */
+    /* 100vh는 스크롤바를 포함한 100%, %는 스크롤바 미포함 */
+    display: flex; /* 수평 정렬시 사용하는 것 */
+    /* https://studiomeal.com/archives/197 */
+    flex-direction: column; /* 세로 정렬 */
+    justify-content: space-between; /* 컨텐츠간에 띄어쓰기 정렬 */
+    align-items: center; /* 중앙 정렬 */
+}
+
+header h1 {
+    margin: 50px 0px 10px 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+header p {
+    font-size: 24px;
+    color: rgba(92, 25, 146, 0.842);
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+.pads
+{
+    background: lightblue;
+    width: 100%;
+    display: flex;
+    
+}
+
+.pads>div
+{
+    height: 100px;
+    width: 100px;
+    flex: 1;  /* pads 안에 있는 자식들에게 동일한 너비를 주겠다 */
+    /* https://d2.naver.com/helloworld/8540176 */
+    cursor: pointer; /* 해당 태그에 마우스 올렸을때 손가락으로 바꾸기 */
+}
+
+.pads>div:hover{
+    background: lightblue;
+}
+
+.pad1
+{
+    
+    background: rgba(137, 43, 226, 0.699);
+    text-align: center;
+    padding: 5px;
+    font-size: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.pad2
+{
+    background: plum;
+    text-align: center;
+    padding: 5px;
+    font-size: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.pad3
+{
+    background: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    font-size: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.pad4
+{
+    background: rgba(128, 255, 0, 0.658);
+    text-align: center;
+    padding: 5px;
+    font-size: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.pad5
+{
+    background: rgba(255, 127, 80, 0.774);
+    text-align: center;
+    padding: 5px;
+    font-size: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nanum Pen Script', cursive;
+    
+}
+
+.pad6
+{
+    background: rgba(220, 20, 60, 0.589);
+    text-align: center;
+    padding: 5px;
+    font-size: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.visual>div {
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    bottom: 0%;
+    z-index: 1;
+    left: 48%;
+}
+
+.title
+{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    position: relative;
+    color: rgb(133, 187, 192);
+    text-align: center;
+    margin: 0 auto;
+    bottom: 15%;
+}
+
+.animation {
+    animation: wobble-ver-left 0.8null infinite ;
+    
+}
+ @keyframes animation  {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateY(-30px) rotate(-6deg);
+    }
+    30% {
+      transform: translateY(15px) rotate(6deg);
+    }
+    45% {
+      transform: translateY(-15px) rotate(-3.6deg);
+    }
+    60% {
+      transform: translateY(9px) rotate(2.4deg);
+    }
+    75% {
+      transform: translateY(-6px) rotate(-1.2deg);
+    }
+  }
+  
+  
