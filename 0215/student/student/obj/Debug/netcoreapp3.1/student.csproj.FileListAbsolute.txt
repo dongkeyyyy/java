@@ -1,0 +1,13 @@
+D:\김동혁\java\0215\student\student\bin\Debug\netcoreapp3.1\student.exe
+D:\김동혁\java\0215\student\student\bin\Debug\netcoreapp3.1\student.deps.json
+D:\김동혁\java\0215\student\student\bin\Debug\netcoreapp3.1\student.runtimeconfig.json
+D:\김동혁\java\0215\student\student\bin\Debug\netcoreapp3.1\student.runtimeconfig.dev.json
+D:\김동혁\java\0215\student\student\bin\Debug\netcoreapp3.1\student.dll
+D:\김동혁\java\0215\student\student\bin\Debug\netcoreapp3.1\student.pdb
+D:\김동혁\java\0215\student\student\obj\Debug\netcoreapp3.1\student.csprojAssemblyReference.cache
+D:\김동혁\java\0215\student\student\obj\Debug\netcoreapp3.1\student.AssemblyInfoInputs.cache
+D:\김동혁\java\0215\student\student\obj\Debug\netcoreapp3.1\student.AssemblyInfo.cs
+D:\김동혁\java\0215\student\student\obj\Debug\netcoreapp3.1\student.csproj.CoreCompileInputs.cache
+D:\김동혁\java\0215\student\student\obj\Debug\netcoreapp3.1\student.dll
+D:\김동혁\java\0215\student\student\obj\Debug\netcoreapp3.1\student.pdb
+D:\김동혁\java\0215\student\student\obj\Debug\netcoreapp3.1\student.genruntimeconfig.cache

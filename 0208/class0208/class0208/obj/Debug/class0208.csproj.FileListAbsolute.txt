@@ -1,0 +1,7 @@
+D:\김동혁\java\0208\class0208\class0208\bin\Debug\class0208.exe.config
+D:\김동혁\java\0208\class0208\class0208\bin\Debug\class0208.exe
+D:\김동혁\java\0208\class0208\class0208\bin\Debug\class0208.pdb
+D:\김동혁\java\0208\class0208\class0208\obj\Debug\class0208.csprojAssemblyReference.cache
+D:\김동혁\java\0208\class0208\class0208\obj\Debug\class0208.csproj.CoreCompileInputs.cache
+D:\김동혁\java\0208\class0208\class0208\obj\Debug\class0208.exe
+D:\김동혁\java\0208\class0208\class0208\obj\Debug\class0208.pdb
