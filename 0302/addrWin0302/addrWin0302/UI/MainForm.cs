@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,13 +17,13 @@ namespace addrWin0302
 {
     public partial class MainForm : MaterialForm
     {
+        UpdateForm up = new UpdateForm();
         MyMenu menu = new MyMenu();
         StudentHandler sc = new StudentHandler();
         public MainForm()
         {
             InitializeComponent();
             
-
         }
 
         private void addrExit_Click(object sender, EventArgs e)
@@ -42,8 +43,9 @@ namespace addrWin0302
 
         private void addrView_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().viewItem();
-            new ViewForm().ShowDialog();
+        //  StudentHandler.getInst().viewItem();
+            new ViewForm(sc).ShowDialog();
+            
         }
 
         private void addrAddRand_Click(object sender, EventArgs e)
@@ -52,22 +54,22 @@ namespace addrWin0302
                 "랜덤하게 데이터를 생성할 갯수를 입력하세요.",
                 "0");
             if (cnt == "") return;
-            StudentHandler.getInst().randData(Convert.ToInt32(cnt));
+            sc.randData(Convert.ToInt32(cnt));
         }
 
         private void addDel_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().delItem();
+            new DelForm(sc).ShowDialog();
         }
 
         private void addrDelAll_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().delItemAll();
+            sc.delItemAll();
         }
 
         private void addrUpdate_Click(object sender, EventArgs e)
         {
-            
+            new UpdateForm(sc).ShowDialog();
         }
 
         private string myInputBox(string title, string body, string prompt)
@@ -79,7 +81,19 @@ namespace addrWin0302
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+           /* initFont();*/
         }
+
+        /*private void initFont()
+        {
+            ;
+            PrivateFontCollection pFont = new PrivateFontCollection();
+            pFont.AddFontFile("NanumGothicExtraBold.ttf");
+            Font font = new Font(pFont.Families[0], 18f);
+            addrAdd.Font = font;
+            addrView.Font = font;
+        }*/
     }
+
+    
 }

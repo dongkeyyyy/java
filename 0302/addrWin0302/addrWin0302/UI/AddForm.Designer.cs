@@ -167,7 +167,7 @@ namespace addrWin0302.UI
             this.addOk.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.addOk.ForeDisableColor = System.Drawing.Color.White;
             this.addOk.IsCircle = true;
-            this.addOk.Location = new System.Drawing.Point(187, 390);
+            this.addOk.Location = new System.Drawing.Point(156, 390);
             this.addOk.MinimumSize = new System.Drawing.Size(1, 1);
             this.addOk.Name = "addOk";
             this.addOk.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));

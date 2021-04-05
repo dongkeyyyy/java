@@ -75,9 +75,9 @@ namespace addrWin0302
             // 
             this.cxFlatPictureBox1.BackColor = System.Drawing.Color.White;
             this.cxFlatPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox1.Image")));
-            this.cxFlatPictureBox1.Location = new System.Drawing.Point(0, 66);
+            this.cxFlatPictureBox1.Location = new System.Drawing.Point(0, 63);
             this.cxFlatPictureBox1.Name = "cxFlatPictureBox1";
-            this.cxFlatPictureBox1.Size = new System.Drawing.Size(275, 515);
+            this.cxFlatPictureBox1.Size = new System.Drawing.Size(275, 523);
             this.cxFlatPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.cxFlatPictureBox1.TabIndex = 11;
             this.cxFlatPictureBox1.TabStop = false;

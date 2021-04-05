@@ -135,5 +135,10 @@ namespace adressTest0218.control
             }
             return rs.ToString();
         }
+
+        /*public static upadte() 
+        {
+            
+        }*/
     }
 }
