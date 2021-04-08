@@ -1,0 +1,7 @@
+D:\김동혁\java\0405\ConsoleApp1\Chapter02\bin\Debug\Chapter02.exe.config
+D:\김동혁\java\0405\ConsoleApp1\Chapter02\bin\Debug\Chapter02.exe
+D:\김동혁\java\0405\ConsoleApp1\Chapter02\bin\Debug\Chapter02.pdb
+D:\김동혁\java\0405\ConsoleApp1\Chapter02\obj\Debug\Chapter02.csproj.CoreCompileInputs.cache
+D:\김동혁\java\0405\ConsoleApp1\Chapter02\obj\Debug\Chapter02.exe
+D:\김동혁\java\0405\ConsoleApp1\Chapter02\obj\Debug\Chapter02.pdb
+D:\김동혁\java\0405\ConsoleApp1\Chapter02\obj\Debug\Chapter02.csprojAssemblyReference.cache
